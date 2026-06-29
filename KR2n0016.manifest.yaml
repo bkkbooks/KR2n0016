@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR2n0016/v1
+canonical_location: https://kanripo.org/bkk/KR2n0016/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 籀史
+  date: '2015-08-24 22:54:18.229788'
+  source:
+    repository: kanripo
+    path: KR2n0016
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR2n0016_000.yaml, hash: 'sha256:3834e07451f96f45f2e53f97c724d3e9645f890aa53f030c7d1eea0353775a2e'}
+  - {seq: 1, filename: KR2n0016_001.yaml, hash: 'sha256:7e03b9e5a51df4ba7d41f07cf8e1cf04037ed024a675cbc63d53c158a9a170cb'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2n0016_000.markers.yaml, hash: 'sha256:5d399417e2aaa55962f33968e0571ff109bfbb177fb82a085978ec8c5d752c2f'}
+  - {seq: 1, role: markers, filename: assets/KR2n0016_001.markers.yaml, hash: 'sha256:c89308bd5cf43958d4b79e765c24d2d38c213d91a0436693cced6c4c010b8294'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2n0016_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 374
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2n0016_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 8934
+  label: 籀史
+  type: section
+  level: 1
+hash: sha256:cbfd6cdce1290da57132dba35bad7ca0a28275eef3fa23f723b5554fbe0a666a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
