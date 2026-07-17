@@ -20,8 +20,8 @@ assets:
   - {seq: 0, filename: KR2n0016_000-WYG.yaml, hash: 'sha256:3ad1f7e85f11cb9b4ca76412f261b2690ebe02906a1d75333ca24002591b9799'}
   - {seq: 1, filename: KR2n0016_001-WYG.yaml, hash: 'sha256:744f96326f9f13603e09b5410c8988aa1bfc83a3fd153a8c926058aac0184642'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR2n0016_000-WYG.markers.yaml, hash: 'sha256:1d14a455eb822bff38ec2075c8d84e2da2f60e053991c50a2fcb5845e9b20ae7'}
-  - {seq: 1, role: markers, filename: assets/KR2n0016_001-WYG.markers.yaml, hash: 'sha256:5ecc9576bdc1154f637308553da462443f13f58106eecf92579e5c5db4015ca1'}
+  - {seq: 0, role: markers, filename: assets/KR2n0016_000-WYG.markers.yaml, hash: 'sha256:53f937be86656fc1b7f20418ed8328519ba92da3e966992883e84c995746bcb4'}
+  - {seq: 1, role: markers, filename: assets/KR2n0016_001-WYG.markers.yaml, hash: 'sha256:ea469dc587d35a09458ca5b9ad70fc0a17e2424bcf2713021b7b8f78beb5bbb9'}
 table_of_contents:
 - ref:
     seq: 0
@@ -43,4 +43,4 @@ table_of_contents:
   label: 籀史
   type: section
   level: 1
-hash: sha256:f9d5cba7d7d1b4d8c1bfbfa82600bc505c0da847250113c622fa0642db1cd3c1
+hash: sha256:d7969f283f6c9b7c7c3867396193bbc8a463769780038a4eb2724c5097a95896
